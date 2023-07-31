@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #02000e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PÁGINA 1 */
+header {
+    color: white;
+    padding: 22px 20px 10px;
+    background-color: #02000e;
+    
+}
+
+.cabeçalho img {
+    height: 40px;
+}
+
+.cabeçalho h2 {
+    color: white;
+    padding-left: 8px;
+}
+
+.cabeçalho span {
+    color: #37c537;
+}
+
+.cabeçalho div {
+    display: flex;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 5px;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #37c537;
+    transition-duration: 1s;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+}
+
+.link-menu:hover {
+    color: #37c537;
+    transition-duration: 1s;
+}
+
+div h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 54px;
+    margin-top: 38px;
+}
+
+div p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div h6 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 24px;
+    padding-bottom: 12px;
+}
+
+.card {
+    background-color: #02000e;
+    height: 315px;
+    width: 230px;
+    border: 1px solid #37c537;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    height: 175px;
+}
+
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.card a {
+    background-color: #37c537;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #37c537;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card-2 {
+    background-color: #02000e;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* PÁGINA 2 */
+
+.containe {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding-left: 35vh;
+    padding-right: 50vh;
+} 
+
+.containe img {
+    width: auto;
+    height: 500px;
+    margin-top: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+.text {
+    color: white;
+    columns: auto;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.text h2 {
+    font-size: 44px;
+    padding-bottom: 5px;
+}
+
+.text p {
+    text-align: left;
+}
+
+.design {
+    margin-top: 50px;
+    display: relative;
+    position: relative; 
+}
+
+.text2 h2 {
+    position: absolute;
+    top: 14%; 
+    left: 17%;
+    font-size: 36px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: transparent;
+}
+
+.design-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/*Rodape*/
+footer hr{
+   border-color: #130036;
+}
+.dowload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 45px;
+}
+
+.dowload img{
+    height: auto;
+    width: 170px;
+   
+}
+
+.playlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-top: 25px;
+}
+
+.ordem{
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.playlist a{
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    margin: 20px;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 50px;
+    padding-bottom: 22px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.logo img {
+    height: auto;
+    width: 24px;
+    margin-right: 10px;
+}
+.logo h2{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.logo span{
+    color: #37c537;   
+}
+
+@media (max-width: 768px) {
+    header {
+      padding: 15px 10px;
+    }
+  
+    .cabeçalho img {
+      height: 30px;
+    }
+  
+    .cabeçalho h2 {
+      font-size: 20px;
+    }
+  
+    li {
+      font-size: 18px;
+      margin-right: 15px;
+    }
+  
+    div h1 {
+      font-size: 38px;
+      margin-top: 28px;
+    }
+  
+    div p {
+      font-size: 16px;
+    }
+  
+    div h6 {
+      font-size: 18px;
+      margin-top: 18px;
+      padding-bottom: 8px;
+    }
+  
+    .card {
+      height: auto;
+      width: 100%;
+      max-width: 230px;
+      margin: 10px auto;
+    }
+  
+    .card img {
+      height: 150px;
+    }
+  
+    .card h5 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+  
+    .card a {
+      padding: 8px 16px;
+    }
+  
+    .card-1,
+    .card-2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+    }
+  
+    .containe {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .containe img {
+      width: 100%;
+      height: auto;
+      float: none;
+    }
+  
+    .text {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .text h2 {
+      font-size: 30px;
+      padding-bottom: 5px;
+    }
+  
+    .text p {
+      text-align: center;
+    }
+  
+    .design {
+      margin-top: 30px;
+    }
+  
+    .design-img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  
+    .dowload img {
+      width: 150px;
+    }
+  
+    .playlist {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ordem {
+      text-align: center;
+    }
+  
+    .playlist a {
+      margin: 10px;
+    }
+  
+    .rodape {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+    }
+  
+    .logo img {
+      width: 20px;
+      margin-right: 5px;
+    }
+  
+    .logo h2 {
+      font-size: 18px;
+    }
+  }
+  
